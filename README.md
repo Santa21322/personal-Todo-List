@@ -1,7 +1,7 @@
 ```markdown
 # 📋 Personal ToDo List
 
-A sleek and user-friendly web application for managing my daily tasks efficiently. This project was built using basic web technologies and was able to deliver a responsive and feature-rich experience.
+A sleek and user-friendly web application for managing my daily tasks efficiently. This project was built using basic web technologies and delivers a responsive and feature-rich experience.
 
 ---
 
@@ -10,7 +10,7 @@ A sleek and user-friendly web application for managing my daily tasks efficientl
 - ✅ **Add, update, and delete tasks** with ease.
 - 🕑 **Mark tasks as completed** to stay on track.
 - 🔍 **Organize tasks by priority or due date.**
-- 💾 Persistent data storage using local storage or a backend (optional).
+- 💾 Persistent data storage using local storage.
 - 📱 **Responsive design** for mobile and desktop users.
 
 ---
@@ -18,35 +18,35 @@ A sleek and user-friendly web application for managing my daily tasks efficientl
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home-page.png)
+![Home Page](images/home-page.png)
 
 ### ➕ Add Task Modal
-![Add Task Modal](screenshots/add-task-modal.png)
+![Add Task Modal](images/add-task-modal.png)
 
 ### ✅ Completed Tasks View
-![Completed Tasks](screenshots/completed-tasks.png)
+![Completed Tasks](images/completed-tasks.png)
 
 ---
 
-##  🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Icons:** Font Awesome
-- **Storage:** Local Storage 
+- **Storage:** Local Storage
 
 ---
 
-##  🚀 Getting Started
+## 🚀 Getting Started
 
----
+### 🧰 Prerequisites
 
-###  🧰 Prerequisites
 Ensure you have the following installed on your local machine:
+
 - A modern web browser *(Google Chrome, Firefox, etc.)*.
 
 ---
 
-###  📥 Installation
+### 📥 Installation
 
 1. Clone the repository:
    ```bash
@@ -78,7 +78,10 @@ personal-todo-list/
 ├── index.html
 ├── style.css
 ├── app.js
-├── images
+├── images/
+│   ├── home-page.png
+│   ├── add-task-modal.png
+│   └── completed-tasks.png
 └── README.md
 ```
 
@@ -86,7 +89,7 @@ personal-todo-list/
 
 ## 📬 Contact
 
-For any inquiries or feedback, reach out to:
+For any inquiries or feedback, feel free to reach out:
 
 - **👤 Name:** Sintayehu Getnet  
-- **📧 Email:** [getnetsintayehu05@gmail.com@example.com](mailto:getnetsintayehu05@gmail.com@gmail.com)  
+- **📧 Email:** [getnetsintayehu05@gmail.com](mailto:getnetsintayehu05@gmail.com)
