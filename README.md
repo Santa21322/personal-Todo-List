@@ -28,7 +28,7 @@ A sleek and user-friendly web application for managing my daily tasks efficientl
 
 ---
 
-## 🛠️ Technologies Used
+##  🛠️ Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Icons:** Font Awesome
@@ -36,13 +36,13 @@ A sleek and user-friendly web application for managing my daily tasks efficientl
 
 ---
 
-## 🚀 Getting Started
+##  🚀 Getting Started
 
-### 🧰 Prerequisites
+###  🧰 Prerequisites
 Ensure you have the following installed on your local machine:
 - A modern web browser *(Google Chrome, Firefox, etc.)*.
 
-### 📥 Installation
+###  📥 Installation
 
 1. Clone the repository:
    ```bash
