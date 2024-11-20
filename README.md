@@ -38,9 +38,13 @@ A sleek and user-friendly web application for managing my daily tasks efficientl
 
 ##  🚀 Getting Started
 
+---
+
 ###  🧰 Prerequisites
 Ensure you have the following installed on your local machine:
 - A modern web browser *(Google Chrome, Firefox, etc.)*.
+
+---
 
 ###  📥 Installation
 
