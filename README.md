@@ -90,9 +90,3 @@ For any inquiries or feedback, reach out to:
 
 - **👤 Name:** Sintayehu Getnet  
 - **📧 Email:** [getnetsintayehu05@gmail.com@example.com](mailto:getnetsintayehu05@gmail.com@gmail.com)  
-```
-
-### How to Use:
-1. Save this file as `README.md` in your project directory.
-2. Ensure you add the screenshots (`home-page.png`, `add-task-modal.png`, `completed-tasks.png`) to a `screenshots/` folder within your repository.  
-3. Replace placeholders like `your-username` and `your-email@example.com` with actual values.
