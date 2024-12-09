@@ -31,6 +31,8 @@ body{
   overflow: hidden;
   padding: 30px 0;
   display: flex;
+  border-radius: 40px;
+  border: 10px solid #2e2e2e;
 }
 
 
@@ -39,10 +41,9 @@ body{
    .wrapper{
     height: 50rem;
     width: 25rem;
-    border-radius: 40px;
-    border: 10px solid #2e2e2e;
    }
 }
+
 
 .wrapper .screen{
   flex: 1;
@@ -216,6 +217,13 @@ body{
   overflow: auto;
 }
 
+/* .no-task{
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: .7;
+} */
+
 .tasks{
   padding-top: 1rem;
   display: flex;
@@ -324,7 +332,7 @@ body{
 
 .add-task-btn.active{
   z-index: 1;
-  bottom: 20rem;
+  bottom: 23rem;
   transform: rotate(45deg);
 }
 
@@ -392,6 +400,7 @@ body{
 }
 
 .btns button{
+  z-index: 2;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -402,8 +411,20 @@ body{
 }
 
 .btns button.add-btn{
-  background: #f9ea85;
+  background: #ecd95f;
   color: #2e2e2e2e;
+}
+
+.btns button.add-btn:hover{
+  background: gold;
+  color: black;
+  transform: scale(1.1) ;
+}
+
+.btns button.cancel-btn:hover{
+  transform: scale(1.1) ;
+  background: #2e2e2e;
+  color: white;
 }
 
 .add-task-backdrop{
@@ -412,7 +433,7 @@ body{
   left: 50%;
   transform: translateX(-50%);
   width: 135%;
-  height: 25rem;
+  height: 23rem;
   border-radius: 50% 50% 0 0;
   background: #fff;
 }
@@ -424,12 +445,14 @@ body{
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
-  background: #e2e8f0;
+  background: black;
   opacity: 0;
   transition: all .3s;
+  visibility: hidden;
+  transition: all 0.3s;
 }
 
 .black-backdrop.active{
-  opacity: .6;
+  opacity: .5;
   visibility: visible;
 }

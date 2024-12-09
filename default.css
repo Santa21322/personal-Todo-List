@@ -82,7 +82,7 @@ body {
 }
 
 p {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     max-width: 40em;
 }
 
@@ -92,7 +92,7 @@ h3,
 h4,
 h5 {
     margin: 0;
-    margin-bottom: 1.38rem;
+    /* margin-bottom: 1.38rem; */
     font-family: var(--headingfont);
     font-weight: 400;
     text-transform: capitalize;
