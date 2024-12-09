@@ -82,7 +82,6 @@ const tasksContainer = document.querySelector('.tasks');
 
 const calculateTotal= () => {
     const catagoryTasks = tasks.filter(function(task){
-        console.log(task);
         
            return task.category.toLowerCase() === selectedCatagory.title.toLowerCase();
         });
@@ -105,13 +104,13 @@ const renderCatagories = () => {
             wrapper.classList.add("show-catagory");
             selectedCatagory = catagory;
             catagoryTitle.innerHTML = catagory.title;
-            catagoryImg.src = `./image/${catagory.img}`;
+            catagoryImg.src = `./images/${catagory.img}`;
             calculateTotal();
             renderTasks();
         })
         div.innerHTML = `
         <div class="left">
-        <img src="./icons/${catagory.img}" alt="${catagory.title}">
+        <img src="./images/${catagory.img}" alt="${catagory.title}">
         <div class="content">
         <h1>${catagory.title}</h1>
         <p>${catagoryTasks.length} Tasks</p>

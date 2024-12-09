@@ -321,6 +321,7 @@ body{
   bottom: 1rem;
   right: 1rem;
   width: 3rem;
+  font-size: 2rem;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
